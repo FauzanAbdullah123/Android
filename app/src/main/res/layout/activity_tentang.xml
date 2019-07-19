@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".tentang">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="78dp"
+                android:layout_height="93dp"
+                android:layout_gravity="center"
+                app:srcCompat="@mipmap/logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="casual"
+                android:text="@string/app_name"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="115dp"
+                android:padding="10dp"
+                android:text="@string/tujuan"
+                android:textSize="15dp"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Find Me : "
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:background="#ffffff"
+                android:paddingLeft="30dp"
+                app:srcCompat="@mipmap/instagram" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="34dp"
+                android:textSize="10dp"
+                android:text="INSTAGRAM"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:background="#ffffff"
+                android:paddingLeft="30dp"
+                app:srcCompat="@mipmap/youtube" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:paddingLeft="40dp"
+                android:textSize="10dp"
+                android:text="YOUTUBE"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="87dp"
+                android:layout_height="48dp"
+                android:background="#ffffff"
+                android:paddingLeft="60dp"
+                app:srcCompat="@mipmap/fb" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:textSize="10dp"
+                android:text="FACEBOOK"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:layout_gravity="center"
+                android:gravity="bottom"
+                android:text="@string/hak"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
