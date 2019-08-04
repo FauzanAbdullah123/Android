@@ -2,6 +2,7 @@ package com.example.jadwalsholatku;
 
 import android.Manifest;
 import android.app.Activity;
+import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.location.Criteria;
 import android.location.Location;
@@ -57,6 +58,7 @@ public class kompas extends Activity {
         mSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_ORIENTATION);
         kiblat = new SampleView(this);
         setContentView(kiblat);
+        this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
         // for calling the gps
         LocationManager lm = (LocationManager) getSystemService(Context.LOCATION_SERVICE);

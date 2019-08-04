@@ -20,7 +20,9 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
-    <string name="tujuan">Aplikasi ini dibuat untuk mempermudah dalam hal aktifitas sebagai pengingat sholat dan dapat mengatur jadwal sholat, juga dapat melihat kompas kiblat, serta dapat mengakses lokasi masjid terdekat sesuai dengan lokasi user.</string>
+    <string name="tujuan">Aplikasi ini dibuat untuk mempermudah dalam hal aktifitas
+        sebagai melihat waktu/jadwal sholat , juga dapat melihat
+        kompas kiblat, serta dapat mengakses lokasi masjid terdekat sesuai dengan lokasi user.</string>
 
 
     <string name="hak">©2019 Jadwal Sholat Ku Created by Fauzan Abdullah</string>
